@@ -1,0 +1,114 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: hsl(0, 100%, 74%);
+}
+
+.header{
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.trial{
+	font-size: 15px;
+	text-align: center;
+	padding: 20px 40px;
+	margin-bottom: 20px;
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 7px;
+	color: white;
+	box-shadow: 0px 6px rgba(0,0,0,0.2);
+}
+
+span{
+	font-weight: 700;
+}
+
+.paragraph{
+	font-size: 14px;
+	color: white;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 20px 40px 20px;
+}
+
+.content{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 25px;
+	background-color: white;
+	border-radius: 7px;
+	box-shadow: 0px 6px rgba(0,0,0,0.2);
+
+}
+
+.input-card input{
+	width: 100%;
+	height: 45px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid hsl(246, 25%, 77%);
+	border-radius: 5px;
+	outline:none;
+}
+
+.input-card input:focus{
+	border: 2px solid hsl(248, 32%, 49%);
+}
+
+.input-card input::placeholder{
+	color: hsl(249, 10%, 26%);
+	font-weight: 700;
+}
+
+.terms{
+	font-size: 12px;
+	color: hsl(246, 25%, 77%);
+}
+
+.terms a{
+	text-decoration: none;
+	color: hsl(0, 100%, 74%);
+	font-weight: 700;
+}
+
+.btn{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+button{
+	padding: 15px 30px;
+	width:100%;
+	background-color: hsl(154, 59%, 51%);
+	border: none;
+	border-radius: 7px;
+	color: white;
+	font-weight: 500;
+	box-shadow: 0px 6px hsl(154, 59%, 45%);
+	cursor: pointer;
+}
+
+button:active{
+	box-shadow: 0px 6px hsl(154, 59%, 51%);
+}
