@@ -57,7 +57,7 @@ span {
   margin-bottom: 40px;
 }
 
-.form {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@ span {
   box-shadow: 0px 6px rgba(0, 0, 0, 0.2);
 }
 
-.input-card {
+.form {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -81,7 +81,7 @@ span {
   border: 2px solid red !important;
 }
 
-.input-card input {
+.form input {
   width: 100%;
   height: 45px;
   margin-bottom: 25px;
@@ -91,11 +91,11 @@ span {
   outline: none;
 }
 
-.input-card input:focus {
+.form input:focus {
   border: 2px solid hsl(248, 32%, 49%);
 }
 
-.input-card input::placeholder {
+.form input::placeholder {
   color: hsl(249, 10%, 26%);
   font-weight: 700;
 }
@@ -111,12 +111,7 @@ span {
   font-weight: 700;
 }
 
-.btn {
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-button {
+#btn {
   padding: 15px 30px;
   width: 100%;
   background-color: hsl(154, 59%, 51%);
@@ -128,7 +123,7 @@ button {
   cursor: pointer;
 }
 
-button:active {
+#btn:active {
   box-shadow: 0px 6px hsl(154, 59%, 51%);
 }
 
@@ -150,7 +145,7 @@ button:active {
     height: 90%;
   }
 
-  .input-card input {
+  .form input {
     margin-bottom: 25px;
   }
 
@@ -163,7 +158,7 @@ button:active {
     text-align: left;
   }
 
-  .form {
+  .card {
     height: 100%;
   }
 }
